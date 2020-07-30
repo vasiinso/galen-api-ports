@@ -15,9 +15,9 @@ def get_requirements():
 setup(
     name='galenpy',
     version=py.__version__,
-    url='https://github.com/valermor/galen-api-ports',
+    url='https://github.com/vasiinso/galen-api-ports',
     author='valerio morsella',
-    author_email='valerio.morsella@skyscanner.net',
+    author_email='vasiinso@gmail.com',
     package_data={'galenpy': ['service/*.jar', 'pythrift/*-remote', 'utils/*.config']},
     description='Porting of the Galen Framework API to Python',
     long_description=open('py/README.rst').read(),
