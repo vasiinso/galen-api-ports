@@ -1,6 +1,6 @@
 Galen API Ports
 ===============
-[![Build Status](https://travis-ci.org/valermor/galen-api-ports.svg?branch=master)](https://travis-ci.org/valermor/galen-api-ports)
+[![Build Status](https://travis-ci.org/vasiinso/galen-api-ports.svg?branch=master)](https://travis-ci.org/valermor/galen-api-ports)
 
 
 _Galen API Ports_ is a framework to port the [Galen Framework](http://galenframework.com "Galen's Homepage") API to languages other than Javascript and Java, which are the ones officially supported.
