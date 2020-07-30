@@ -1,4 +1,4 @@
-#!/bin/bash
+b#!/bin/bash
 
 # Prepare Python project for distribution:
 # 1 - Assemble Java Server into jar

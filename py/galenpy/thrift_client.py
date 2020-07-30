@@ -51,7 +51,7 @@ class ThriftClient(object):
             protocol = protocol_factory.getProtocol(self.transport)
             self.client = GalenApiRemoteService.Client(protocol)
             self.transport.open()
-        except Thrift.TException, tx:
+        except Thrift.TException as tx:
             stop_galen_remote_api_service(GALEN_REMOTE_API_SERVICE_DEFAULT_PORT)
             raise Exception('%s' % (tx.message))
 

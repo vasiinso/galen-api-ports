@@ -14,7 +14,6 @@
 # limitations under the License.                                           #
 ############################################################################
 
-
 class IllegalMethodCallException(Exception):
     """
     Thrown when a method is called on an object which is not in a right state.

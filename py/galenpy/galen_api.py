@@ -16,7 +16,7 @@
 
 import logging
 
-from exception import IllegalMethodCallException, FileNotFoundError
+from galenpy.exception import IllegalMethodCallException, FileNotFoundError
 from galenpy.galen_webdriver import GalenRemoteWebDriver
 from galenpy.thrift_client import ThriftClient
 from pythrift.ttypes import SpecNotFoundException

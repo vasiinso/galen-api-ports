@@ -4,7 +4,7 @@ language:
 python:
   - 2.7
 before_install:
- - git clone https://github.com/valermor/galen-sample-py-tests.git
+ - git clone https://github.com/vasiinso/galen-sample-py-tests.git
  - chmod -R +x scripts
  - chmod -R +x ./
 install:
